@@ -9,7 +9,7 @@
         content="Stop overpaying for design assets! Get 12M+ Creative Fabrica resources for just $1. Full comparison vs Design Bundles. Limited-time offer with commercial license.">
     <meta name="keywords"
         content="creative fabrica, design bundles, $1 deal, all access pass, fonts, graphics, commercial license, design assets">
-
+    <link rel="icon" href="https://fbcd.co/images/favicon/designbundles/favicon.ico" type="image/x-icon">
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Creative Fabrica vs Design Bundles: Get $1 All Access Pass">
     <meta property="og:description"
@@ -62,7 +62,7 @@
             background-color: var(--cf-light);
         }
 
-        a{
+        a {
             text-decoration: none;
         }
 
@@ -1072,225 +1072,231 @@
                 grid-template-columns: 1fr;
             }
         }
-/* ===================== HEADER DESKTOP ===================== */
-.top-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 20%;
-    border-bottom: 1px solid #eee;
-    background: #fff;
-}
 
-.logo img {
-    height: 35px;
-    object-fit: contain;
-}
+        /* ===================== HEADER DESKTOP ===================== */
+        .top-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 20%;
+            border-bottom: 1px solid #eee;
+            background: #fff;
+        }
 
-.search-container {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    padding: 0 25px;
-}
+        .logo img {
+            height: 35px;
+            object-fit: contain;
+        }
 
-.search-box {
-    width: 100%;
-    max-width: 550px;
-    display: flex;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 30px;
-    padding: 8px 15px;
-    background: #fff;
-}
+        .search-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            padding: 0 25px;
+        }
 
-.search-box input {
-    flex: 1;
-    border: none;
-    outline: none;
-    font-size: 14px;
-}
+        .search-box {
+            width: 100%;
+            max-width: 550px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 30px;
+            padding: 8px 15px;
+            background: #fff;
+        }
 
-.search-box .icon {
-    font-size: 16px;
-    color: #555;
-}
+        .search-box input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 14px;
+        }
 
-.btn-orange {
-    background: #ffb84d;
-    padding: 10px 18px;
-    border-radius: 25px;
-    color: #000;
-    font-weight: bold;
-    border: 2px solid #f5a623;
-    margin-right: 10px;
-    cursor: pointer;
-}
+        .search-box .icon {
+            font-size: 16px;
+            color: #555;
+        }
 
-.btn-blue {
-    background: #34b5ff;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-}
+        .btn-orange {
+            background: #ffb84d;
+            padding: 10px 18px;
+            border-radius: 25px;
+            color: #000;
+            font-weight: bold;
+            border: 2px solid #f5a623;
+            margin-right: 10px;
+            cursor: pointer;
+        }
 
-/* ===================== MENU DESKTOP ===================== */
-.menu-container {
-    display: flex;
-    justify-content: center; /* căn giữa menu */
-    align-items: center;
-    position: relative; /* để cart nằm tuyệt đối */
-    gap: 20px;
-    padding: 10px 25px;
-    background: #fff;
-    border-bottom: 1px solid #eee;
-}
+        .btn-blue {
+            background: #34b5ff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
 
-.menu {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 14px;
-}
+        /* ===================== MENU DESKTOP ===================== */
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            /* căn giữa menu */
+            align-items: center;
+            position: relative;
+            /* để cart nằm tuyệt đối */
+            gap: 20px;
+            padding: 10px 25px;
+            background: #fff;
+            border-bottom: 1px solid #eee;
+        }
 
-.menu-item {
-    cursor: pointer;
-    color: #333;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 14px;
+        }
 
-.menu-item:hover {
-    color: #0099ff;
-}
+        .menu-item {
+            cursor: pointer;
+            color: #333;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
 
-.menu-divider {
-    color: #999;
-}
+        .menu-item:hover {
+            color: #0099ff;
+        }
 
-.cart {
-    position: absolute;
-    right: 25px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
+        .menu-divider {
+            color: #999;
+        }
 
-.cart-icon {
-    font-size: 18px;
-}
+        .cart {
+            position: absolute;
+            right: 25px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
 
-.cart-count {
-    font-size: 14px;
-    color: #777;
-}
+        .cart-icon {
+            font-size: 18px;
+        }
 
-/* ===================== MOBILE ===================== */
-.mobile-nav-btn,
-.mobile-icons,
-.mobile-search,
-.mobile-menu {
-    display: none;
-}
+        .cart-count {
+            font-size: 14px;
+            color: #777;
+        }
 
-/* MOBILE STYLES */
-@media (max-width: 768px) {
+        /* ===================== MOBILE ===================== */
+        .mobile-nav-btn,
+        .mobile-icons,
+        .mobile-search,
+        .mobile-menu {
+            display: none;
+        }
 
-    .top-header {
-        padding: 12px 18px;
-    }
+        /* MOBILE STYLES */
+        @media (max-width: 768px) {
 
-    /* Show hamburger + user/cart icons */
-    .mobile-nav-btn,
-    .mobile-icons {
-        display: flex;
-        align-items: center;
-        font-size: 22px;
-        cursor: pointer;
-    }
+            .top-header {
+                padding: 12px 18px;
+            }
 
-    .mobile-icons {
-        gap: 18px;
-    }
+            /* Show hamburger + user/cart icons */
+            .mobile-nav-btn,
+            .mobile-icons {
+                display: flex;
+                align-items: center;
+                font-size: 22px;
+                cursor: pointer;
+            }
 
-    /* Hide desktop items */
-    .search-container,
-    .btn-orange,
-    .btn-blue,
-    .menu-container {
-        display: none;
-    }
+            .mobile-icons {
+                gap: 18px;
+            }
 
-    /* Mobile Search */
-    .mobile-search {
-        display: block;
-        padding: 15px 18px;
-        background: #fff;
-    }
+            /* Hide desktop items */
+            .search-container,
+            .btn-orange,
+            .btn-blue,
+            .menu-container {
+                display: none;
+            }
 
-    .mobile-search-box {
-        width: 100%;
-        border: 2px solid #ccc;
-        border-radius: 35px;
-        padding: 12px 20px;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        background: #fff;
-    }
+            /* Mobile Search */
+            .mobile-search {
+                display: block;
+                padding: 15px 18px;
+                background: #fff;
+            }
 
-    .mobile-search-box input {
-        flex: 1;
-        border: none;
-        outline: none;
-        font-size: 16px;
-    }
+            .mobile-search-box {
+                width: 100%;
+                border: 2px solid #ccc;
+                border-radius: 35px;
+                padding: 12px 20px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                background: #fff;
+            }
 
-    .mobile-search-box i {
-        font-size: 18px;
-        color: #555;
-    }
+            .mobile-search-box input {
+                flex: 1;
+                border: none;
+                outline: none;
+                font-size: 16px;
+            }
 
-    /* Mobile Menu Slide */
-    .mobile-menu {
-        position: fixed;
-        top: 0;
-        left: -100%; /* ẩn mặc định */
-        width: 75%;
-        height: 100vh;
-        background: #fff;
-        padding: 25px;
-        box-shadow: 3px 0 10px rgba(0, 0, 0, 0.15);
-        transition: 0.3s;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        z-index: 999;
-    }
+            .mobile-search-box i {
+                font-size: 18px;
+                color: #555;
+            }
 
-    .mobile-menu.active {
-        left: 0; /* hiện menu khi toggle */
-    }
+            /* Mobile Menu Slide */
+            .mobile-menu {
+                position: fixed;
+                top: 0;
+                left: -100%;
+                /* ẩn mặc định */
+                width: 75%;
+                height: 100vh;
+                background: #fff;
+                padding: 25px;
+                box-shadow: 3px 0 10px rgba(0, 0, 0, 0.15);
+                transition: 0.3s;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                z-index: 999;
+            }
 
-    .close-mobile-menu {
-        margin-bottom: 20px;
-        cursor: pointer;
-        font-size: 22px;
-    }
+            .mobile-menu.active {
+                left: 0;
+                /* hiện menu khi toggle */
+            }
 
-    .mobile-menu-item {
-        font-size: 18px;
-        padding-bottom: 12px;
-        border-bottom: 1px solid #eee;
-        cursor: pointer;
-    }
-}
-.design-section {
+            .close-mobile-menu {
+                margin-bottom: 20px;
+                cursor: pointer;
+                font-size: 22px;
+            }
+
+            .mobile-menu-item {
+                font-size: 18px;
+                padding-bottom: 12px;
+                border-bottom: 1px solid #eee;
+                cursor: pointer;
+            }
+        }
+
+        .design-section {
             max-width: 1000px;
             background: white;
             border-radius: 20px;
@@ -1298,14 +1304,14 @@
             overflow: hidden;
             margin: 0 auto;
         }
-        
+
         .section-header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             padding: 40px 30px;
             text-align: center;
         }
-        
+
         .section-title {
             font-family: 'Montserrat', sans-serif;
             font-size: 2.5rem;
@@ -1313,7 +1319,7 @@
             margin-bottom: 15px;
             letter-spacing: -0.5px;
         }
-        
+
         .section-subtitle {
             font-size: 1.2rem;
             font-weight: 400;
@@ -1321,11 +1327,11 @@
             max-width: 700px;
             margin: 0 auto;
         }
-        
+
         .section-content {
             padding: 50px 40px;
         }
-        
+
         .content-intro {
             font-size: 1.3rem;
             font-weight: 600;
@@ -1334,21 +1340,21 @@
             text-align: center;
             line-height: 1.7;
         }
-        
+
         .highlight {
             background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
             padding: 2px 6px;
             border-radius: 4px;
             font-weight: 700;
         }
-        
+
         .benefits-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 30px;
             margin-top: 40px;
         }
-        
+
         .benefit-card {
             background: #f8fafc;
             border-radius: 12px;
@@ -1356,18 +1362,18 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        
+
         .benefit-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
         }
-        
+
         .benefit-icon {
             font-size: 2.5rem;
             margin-bottom: 15px;
             color: #667eea;
         }
-        
+
         .benefit-title {
             font-family: 'Montserrat', sans-serif;
             font-size: 1.3rem;
@@ -1375,12 +1381,12 @@
             margin-bottom: 12px;
             color: #2d3748;
         }
-        
+
         .benefit-description {
             color: #4a5568;
             line-height: 1.6;
         }
-        
+
         .cta-container {
             text-align: center;
             margin-top: 50px;
@@ -1388,7 +1394,7 @@
             background: #f7fafc;
             border-radius: 12px;
         }
-        
+
         .cta-title {
             font-family: 'Montserrat', sans-serif;
             font-size: 1.5rem;
@@ -1396,7 +1402,7 @@
             margin-bottom: 15px;
             color: #2d3748;
         }
-        
+
         .cta-button {
             display: inline-block;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -1410,21 +1416,21 @@
             transition: all 0.3s ease;
             box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
         }
-        
+
         .cta-button:hover {
             transform: translateY(-3px);
             box-shadow: 0 8px 20px rgba(102, 126, 234, 0.6);
         }
-        
+
         @media (max-width: 768px) {
             .section-title {
                 font-size: 2rem;
             }
-            
+
             .section-content {
                 padding: 30px 20px;
             }
-            
+
             .benefits-grid {
                 grid-template-columns: 1fr;
             }
@@ -1434,81 +1440,86 @@
 
 <body>
     <!-- ===================== HEADER ===================== -->
-<div class="top-header">
-    <!-- Mobile Hamburger -->
-    <div class="mobile-nav-btn" id="menuToggle">
-        <i class="fa-solid fa-bars"></i>
+    <div class="top-header">
+        <!-- Mobile Hamburger -->
+        <div class="mobile-nav-btn" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- Logo -->
+        <div class="logo">
+            <img src="/images/blueblack.min2.svg" alt="Logo">
+        </div>
+
+        <!-- Mobile Icons -->
+        <div class="mobile-icons">
+            <i class="fa-regular fa-bag-shopping"></i>
+            <i class="fa-regular fa-user"></i>
+        </div>
+
+        <!-- Desktop Search -->
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" placeholder="Search names, categories, occasions...">
+                <i class="fa-solid fa-magnifying-glass icon"></i>
+            </div>
+        </div>
+
+        <!-- Desktop Buttons -->
+        <a href="https://www.creativefabrica.com/ref/14381268/" class="btn-orange">Unlock Your Creativity Today!</a>
+        <a href="https://designbundles.net/" class="btn-blue">Sign In</a>
     </div>
 
-    <!-- Logo -->
-    <div class="logo">
-        <img src="/images/blueblack.min2.svg" alt="Logo">
-    </div>
-
-    <!-- Mobile Icons -->
-    <div class="mobile-icons">
-        <i class="fa-regular fa-bag-shopping"></i>
-        <i class="fa-regular fa-user"></i>
-    </div>
-
-    <!-- Desktop Search -->
-    <div class="search-container">
-        <div class="search-box">
+    <!-- MOBILE SEARCH BAR -->
+    <div class="mobile-search">
+        <div class="mobile-search-box">
             <input type="text" placeholder="Search names, categories, occasions...">
-            <i class="fa-solid fa-magnifying-glass icon"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
         </div>
     </div>
 
-    <!-- Desktop Buttons -->
-    <a href="https://www.creativefabrica.com/ref/14381268/" class="btn-orange">Unlock Your Creativity Today!</a>
-    <a href="https://designbundles.net/" class="btn-blue">Sign In</a>
-</div>
+    <!-- MENU DESKTOP -->
+    <div class="menu-container">
+        <div class="menu">
+            <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Plus Library</a>
+            <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Illustrate AI</a>
+            <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-aider">|</a>
+            <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">New</a>
+            <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Crafters <i
+                    class="fa-solid fa-chevron-down"></i></a>
+            <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Graphics <i
+                    class="fa-solid fa-chevron-down"></i></a>
+            <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Add-ons <i
+                    class="fa-solid fa-chevron-down"></i></a>
+            <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Templates <i
+                    class="fa-solid fa-chevron-down"></i></a>
+            <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Free Designs <i
+                    class="fa-solid fa-chevron-down"></i></a>
+            <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Dollar Deals</a>
+            <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">DTF Deals</a>
+        </div>
+        <div class="cart">
+            <i class="fa-regular fa-bag-shopping cart-icon"></i>
+            <div class="cart-count">0</div>
+        </div>
+    </div>
 
-<!-- MOBILE SEARCH BAR -->
-<div class="mobile-search">
-    <div class="mobile-search-box">
-        <input type="text" placeholder="Search names, categories, occasions...">
-        <i class="fa-solid fa-magnifying-glass"></i>
+    <!-- MOBILE MENU SLIDE -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="close-mobile-menu" id="closeMenu">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Plus Library</a>
+        <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Illustrate AI</a>
+        <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">New</a>
+        <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Crafters</a>
+        <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Graphics</a>
+        <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Add-ons</a>
+        <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Templates</a>
+        <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Free Designs</a>
+        <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Dollar Deals</a>
+        <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">DTF Deals</a>
     </div>
-</div>
-
-<!-- MENU DESKTOP -->
-<div class="menu-container">
-    <div class="menu">
-        <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Plus Library</a>
-        <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Illustrate AI</a>
-        <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-aider">|</a>
-        <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">New</a>
-        <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Crafters <i class="fa-solid fa-chevron-down"></i></a>
-        <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Graphics <i class="fa-solid fa-chevron-down"></i></a>
-        <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Add-ons <i class="fa-solid fa-chevron-down"></i></a>
-        <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Templates <i class="fa-solid fa-chevron-down"></i></a>
-        <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Free Designs <i class="fa-solid fa-chevron-down"></i></a>
-        <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">Dollar Deals</a>
-        <a href="https://www.creativefabrica.com/ref/14381268/" class="menu-item">DTF Deals</a>
-    </div>
-    <div class="cart">
-        <i class="fa-regular fa-bag-shopping cart-icon"></i>
-        <div class="cart-count">0</div>
-    </div>
-</div>
-
-<!-- MOBILE MENU SLIDE -->
-<div class="mobile-menu" id="mobileMenu">
-    <div class="close-mobile-menu" id="closeMenu">
-        <i class="fa-solid fa-xmark"></i>
-    </div>
-    <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Plus Library</a>
-    <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Illustrate AI</a>
-    <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">New</a>
-    <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Crafters</a>
-    <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Graphics</a>
-    <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Add-ons</a>
-    <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Templates</a>
-    <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Free Designs</a>
-    <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">Dollar Deals</a>
-    <a href="https://www.creativefabrica.com/ref/14381268/" class="mobile-menu-item">DTF Deals</a>
-</div>
     <!-- Hero Section -->
     <header class="hero-section">
         <div class="hero-bg-pattern"></div>
@@ -1658,38 +1669,42 @@
         <section class="design-section">
             <div class="section-header">
                 <h1 class="section-title">Save 90% on Design Costs</h1>
-                <p class="section-subtitle">For teachers, designers, marketers, content creators, influencers, and students</p>
+                <p class="section-subtitle">For teachers, designers, marketers, content creators, influencers, and
+                    students</p>
             </div>
-            
+
             <div class="section-content">
                 <p class="content-intro">
-                    If you regularly need <span class="highlight">beautiful fonts</span>, 
-                    <span class="highlight">quality illustrations</span>, 
-                    <span class="highlight">templates</span>, or 
-                    <span class="highlight">ready-made designs</span> for your work, 
+                    If you regularly need <span class="highlight">beautiful fonts</span>,
+                    <span class="highlight">quality illustrations</span>,
+                    <span class="highlight">templates</span>, or
+                    <span class="highlight">ready-made designs</span> for your work,
                     read this entire article to avoid wasting 90% of your design budget.
                 </p>
-                
+
                 <div class="benefits-grid">
                     <div class="benefit-card">
                         <div class="benefit-icon">🎨</div>
                         <h3 class="benefit-title">Beautiful Free Fonts</h3>
-                        <p class="benefit-description">Discover our collection of premium free commercial-use fonts to make your designs look more professional.</p>
+                        <p class="benefit-description">Discover our collection of premium free commercial-use fonts to
+                            make your designs look more professional.</p>
                     </div>
-                    
+
                     <div class="benefit-card">
                         <div class="benefit-icon">🖼️</div>
                         <h3 class="benefit-title">Quality Illustrations</h3>
-                        <p class="benefit-description">Access our library of high-resolution vector illustrations suitable for all your creative projects.</p>
+                        <p class="benefit-description">Access our library of high-resolution vector illustrations
+                            suitable for all your creative projects.</p>
                     </div>
-                    
+
                     <div class="benefit-card">
                         <div class="benefit-icon">📄</div>
                         <h3 class="benefit-title">Ready-Made Templates</h3>
-                        <p class="benefit-description">Save time with professionally designed templates that are easy to customize according to your needs.</p>
+                        <p class="benefit-description">Save time with professionally designed templates that are easy to
+                            customize according to your needs.</p>
                     </div>
                 </div>
-                
+
                 <div class="cta-container">
                     <h3 class="cta-title">Ready to Save on Design Costs?</h3>
                     <p>Read the article now to discover free and premium resources!</p>
@@ -2150,7 +2165,8 @@
             </div>
 
             <div class="cta-wrapper">
-                <a href="https://www.creativefabrica.com/ref/14381268/" class="cta-button pulsating-cta" style="margin-top: 30px;">
+                <a href="https://www.creativefabrica.com/ref/14381268/" class="cta-button pulsating-cta"
+                    style="margin-top: 30px;">
                     <span>👉 Claim Your $1 Creative Fabrica Trial!</span>
                 </a>
             </div>
@@ -2255,20 +2271,20 @@
             stats.forEach(stat => observer.observe(stat));
         });
     </script>
-<script>
-    const menuToggle = document.getElementById("menuToggle");
-    const mobileMenu = document.getElementById("mobileMenu");
-    const closeMenu = document.getElementById("closeMenu");
-    
-    menuToggle.addEventListener("click", () => {
-        mobileMenu.classList.add("active");
-    });
-    
-    closeMenu.addEventListener("click", () => {
-        mobileMenu.classList.remove("active");
-    });
+    <script>
+        const menuToggle = document.getElementById("menuToggle");
+        const mobileMenu = document.getElementById("mobileMenu");
+        const closeMenu = document.getElementById("closeMenu");
+
+        menuToggle.addEventListener("click", () => {
+            mobileMenu.classList.add("active");
+        });
+
+        closeMenu.addEventListener("click", () => {
+            mobileMenu.classList.remove("active");
+        });
     </script>
-    
+
 
 </body>
 
