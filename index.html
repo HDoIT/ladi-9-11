@@ -990,13 +990,98 @@
 
         /* Footer */
         footer {
-            background-color: var(--cf-darker);
-            color: #94a3b8;
-            text-align: center;
-            padding: 40px 0;
-            font-size: 0.9em;
+        background: #f9f9f9;
+        padding: 40px 20px;
+        font-size: 14px;
+        color: #555;
+    }
+    .footer-top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto 40px auto;
+    }
+    .footer-logo {
+        flex: 1 1 250px;
+        margin-bottom: 20px;
+    }
+    .footer-logo h2 {
+        font-family: 'Arial', sans-serif;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .footer-logo p {
+        font-size: 13px;
+        color: #777;
+    }
+    .footer-columns {
+        display: flex;
+        flex: 3 1 700px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer-column {
+        min-width: 150px;
+        margin-bottom: 20px;
+    }
+    .footer-column h3 {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .footer-column a {
+        display: block;
+        color: #555;
+        text-decoration: none;
+        margin-bottom: 6px;
+        font-size: 13px;
+    }
+    .footer-column a:hover {
+        text-decoration: underline;
+    }
+    .footer-bottom {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        border-top: 1px solid #ddd;
+        padding-top: 20px;
+    }
+    .social-icons {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .social-icons img {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .currency-select {
+        margin-bottom: 10px;
+    }
+    .footer-bottom p {
+        font-size: 12px;
+        color: #999;
+        margin: 0;
+    }
+    @media(max-width:768px){
+        .footer-top {
+            flex-direction: column;
         }
-
+        .footer-columns {
+            flex-direction: column;
+        }
+        .footer-column {
+            margin-bottom: 20px;
+        }
+        .footer-bottom {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
         /* Responsive Styles */
         @media (max-width: 1024px) {
             .hero-content {
@@ -1906,12 +1991,12 @@
                     <p>A library of ideas and AI templates to kickstart your next project.</p>
                 </div>
             </div>
-            <div class="highlight-box" data-aos="zoom-in-up" data-aos-delay="550"
+            <a href="https://www.creativefabrica.com/ref/14381268/" class="highlight-box cta-button" data-aos="zoom-in-up" data-aos-delay="550"
                 style="background: var(--cf-gradient); color: white; padding: 25px; border-radius: var(--cf-radius); text-align: center; margin-top: 30px;">
                 <h3 style="color: white; margin-bottom: 10px;">👉 This is where CF shines</h3>
                 <p style="font-size: 1.2rem; font-weight: 600;">Not just download – but create, test, and learn right
                     within the platform.</p>
-            </div>
+            </a >
         </div>
     </section>
 
@@ -2200,8 +2285,61 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>&copy; 2025 LHD.</p>
+        <div class="footer-top">
+            <div class="footer-logo">
+                <div class="logo">
+                    <img src="/images/blueblack.min2.svg" alt="Logo">
+                </div>
+                <p>Craft, create, and inspire with endless design possibilities at Design Bundles.</p>
+                <p><strong>5,747,909</strong> Products <strong>5,463,285</strong> Customers <strong>9,236</strong> Stores</p>
+            </div>
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Navigation</h3>
+                    <a href="#">Certified Carbon Neutral Company</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Our Licenses</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Website Terms and Conditions</a>
+                    <a href="#">Collections</a>
+                    <a href="#">News</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <a href="#">Help Center</a>
+                    <a href="#">Design School</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Monogram Maker</a>
+                    <a href="#">Imagine Anything</a>
+                    <a href="#">DTF Printer</a>
+                    <a href="#">Our Favourite Stores</a>
+                    <a href="#">Recommended Products</a>
+                    <a href="#">Craft Tutorials</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Pages</h3>
+                    <a href="#">Create a Store</a>
+                    <a href="#">Affiliates</a>
+                    <a href="#">Dollar Deals</a>
+                    <a href="#">Register</a>
+                    <a href="#">Login</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="social-icons">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a> <!-- X trước là Twitter -->
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="currency-select">
+                <select>
+                    <option>VND</option>
+                </select>
+            </div>
+            <p>© 2015-2025 - All rights reserved. Design Bundles Limited, Graphic House, City Rd, Stoke-on-Trent, ST4 2PH UK Registered Company Number 09966437. VAT number GB305117545.</p>
         </div>
     </footer>
 
